@@ -22,7 +22,7 @@ jobs:
       run: composer install --ignore-platform-reqs
 
     - name: FTP Upload
-      uses: demo-ci-cd@demo.cicd.phpteam.in
+      uses: wftp-upload-action/upload@v2
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
