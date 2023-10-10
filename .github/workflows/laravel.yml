@@ -27,5 +27,4 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: 'Utpalt99/learn-CI-CD/'
-        remote-dir: '/home/foliages/demo.cicd.phpteam.in'
+        server-dir: '/demo.cicd.phpteam.in/'
