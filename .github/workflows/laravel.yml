@@ -27,4 +27,4 @@ jobs:
         server: ftp.foliageschool.com
         username: demo-ci-cd@demo.cicd.phpteam.in
         password: sI1FqMh4D6Za
-        server-dir: '/demo.cicd.phpteam.in/'
+        server-dir: ./demo.cicd.phpteam.in/
