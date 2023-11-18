@@ -25,6 +25,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.foliageschool.com
-        username: demo-ci-cd@demo.cicd.phpteam.in
-        password: A2}g)x0a[pYu
+        username: foliages@demo.cicd.phpteam.in
+        password: Wf2izs&s!SgR
         server-dir: ./demo.cicd.phpteam.in/
