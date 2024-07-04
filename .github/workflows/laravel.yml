@@ -20,3 +20,11 @@ jobs:
 
     - name: Install Dependencies
       run: composer install --ignore-platform-reqs
+
+    - name: FTP Upload
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: ftp.foliageschool.com
+        username: foliages@demo.cicd.phpteam.in
+        password: Wf2izs&s!SgR
+        server-dir: ./demo.cicd.phpteam.in/
